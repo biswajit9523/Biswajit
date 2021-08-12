@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment | Day 2</title>
+  </head>
+  <body>
+    <h1>Table</h1>
+    <!--Table Creation-->
+
+    <table style="width: 20%">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>City</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Biswajit Dey</td>
+          <td>Delhi</td>
+          <td>80%</td>
+        </tr>
+
+        <tr>
+          <td>Deepak</td>
+          <td>Noida</td>
+          <td>83%</td>
+        </tr>
+
+        <tr>
+          <td>Harsh</td>
+          <td>Mumbai</td>
+          <td>79%</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Table Creation End-->
+
+    <h1>From</h1>
+    <!--Satrt Form-->
+    <form action="#">
+      <p>
+        Name:
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Name"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="Date">
+          Date Of Birth :
+          <input type="Date" name="Dob" id="dob" required />
+        </label>
+      </p>
+
+      <p>
+        <label for="Mob no">
+          Contact :
+          <input type="number" name="mobile" id="mobile" required />
+        </label>
+      </p>
+
+      <p>
+        <label for="email">
+          Email :
+          <input type="email" name="mail" id="mail" required />
+        </label>
+      </p>
+
+      <p>
+        City :
+        <select name="City" id="city">
+          <option value="Select your City">Select your City</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Ahamdabaad">Ahamdabaad</option>
+          <option value="Indore<">Indore</option>
+          <option value="Noida">Noida</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Bhubneswar">Bhubneswar</option>
+        </select>
+      </p>
+      <p>
+        <input type="checkbox" name="declaration" id="" />
+        Accept term & condition.
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
